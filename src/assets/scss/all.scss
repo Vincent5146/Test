@@ -27,18 +27,11 @@ h1 {
   font-family: "Baloo Tamma 2";
   letter-spacing: 0.5rem;
   font-weight: bold;
-  @media (max-width: 575px) {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
 }
 .container {
   margin: 3rem auto 1.5rem auto;
   padding: 0 12px;
   width: 500px;
-  @media (max-width: 575px) {
-    margin-top: 1.5rem;
-  }
 }
 .card {
   margin-bottom: 0.5rem;
@@ -77,7 +70,6 @@ h1 {
   text-decoration: none;
 }
 
-// card_list
 .card_list {
   padding: 0;
 }
@@ -102,17 +94,11 @@ h1 {
 }
 .cart_content {
   padding: 0.5rem 1rem 1rem 1rem;
-  @media (max-width: 575px) {
-    padding: 0.5rem 1rem 0.5rem 0.5rem;
-  }
 }
 
   .todoitems {
     position: relative;
     padding-right: 2rem;
-    @media (max-width: 575px) {
-      padding-right: 0;
-    }
     a.delete {
       position: absolute;
       opacity: 1;
@@ -127,11 +113,6 @@ h1 {
       background: #000;
       background-image: url("https://i.imgur.com/7Q4RjFx.jpg");
       background-size: contain;
-      @media (max-width: 575px) {
-        opacity: 1;
-        width: 12px;
-        height: 12px;
-      }
     }
   }
 
@@ -150,9 +131,6 @@ h1 {
   &:hover button {
     opacity: 0.5;
   }
-  @media (max-width: 575px) {
-    padding: 1.5rem 0 1rem 0.5rem;
-  }
 }
 
 .checkbox {
@@ -167,9 +145,6 @@ h1 {
     padding: 1rem 0;
     border-bottom: 1px solid #eee;
     line-height: 1.5;
-    @media (max-width: 575px) {
-      padding-right: 1rem;
-    }
   }
   input {
     position: absolute;
